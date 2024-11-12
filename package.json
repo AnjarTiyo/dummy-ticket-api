@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "next": "^15.0.3",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "uuid": "^11.0.3"
+  }
+}

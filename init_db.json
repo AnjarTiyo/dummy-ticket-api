@@ -1,0 +1,107 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Avengers: Endgame",
+        "times": [
+          {
+            "time": "12:00 PM",
+            "availableSeats": [
+              "A1",
+              "A2",
+              "A3",
+              "A4",
+              "A5",
+              "A6"
+            ],
+            "price": 10
+          },
+          {
+            "time": "4:00 PM",
+            "availableSeats": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5"
+            ],
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Inception",
+        "times": [
+          {
+            "time": "1:00 PM",
+            "availableSeats": [
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C5"
+            ],
+            "price": 12
+          },
+          {
+            "time": "6:00 PM",
+            "availableSeats": [
+              "D1",
+              "D2",
+              "D3",
+              "D4",
+              "D5"
+            ],
+            "price": 12
+          }
+        ]
+      }
+    ],
+    "bookings": [
+      {
+        "paymentCode": "PAY-241401",
+        "movieId": 1,
+        "time": "12:00 PM",
+        "seats": [
+          "A1",
+          "A2"
+        ],
+        "totalPrice": 20,
+        "status": "UNPAID"
+      },
+      {
+        "paymentCode": "PAY-257520",
+        "movieId": 1,
+        "time": "12:00 PM",
+        "seats": [
+          "A1",
+          "A2"
+        ],
+        "totalPrice": 20,
+        "status": "UNPAID"
+      },
+      {
+        "paymentCode": "PAY-375920",
+        "movieId": 1,
+        "time": "12:00 PM",
+        "seats": [
+          "A1",
+          "A2"
+        ],
+        "totalPrice": 20,
+        "status": "PAID"
+      },
+      {
+        "paymentCode": "PAY-562070",
+        "movieId": 1,
+        "time": "12:00 PM",
+        "seats": [
+          "A1",
+          "A2"
+        ],
+        "totalPrice": 20,
+        "status": "UNPAID"
+      }
+    ]
+  }
